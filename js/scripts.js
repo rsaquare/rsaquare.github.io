@@ -1,7 +1,7 @@
 /*!
-* Start Bootstrap - Creative v7.0.5 (https://startbootstrap.com/theme/creative)
+* Start Bootstrap - Creative v7.0.5 
 * Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+* Licensed under MIT 
 */
 //
 // Scripts
@@ -56,4 +56,7 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
+     document.getElementById("name").value = '';
+     document.getElementById("email").value = '';
+     document.getElementById("message").value = '';
 });
